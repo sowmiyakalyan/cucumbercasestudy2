@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T05:45:31.011Z",
+        "line": 11,
+        "name": "Successful login",
+        "description": "",
+        "id": "login-into-testmeapp;successful-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 43144379699,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the login page",
+            "match": {
+              "location": "Login.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5683164901,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"sowmiya\" and \"kalyan\" and clicks submit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sowmiya\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"kalyan\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.user_enters_and_and_clicks_submit_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2037456501,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User does Successful login",
+            "match": {
+              "location": "Login.user_does_Successful_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into testmeapp",
+    "description": "  I want to use this template for my feature file",
+    "id": "login-into-testmeapp",
+    "keyword": "Feature",
+    "uri": "classpath:C5/jsoncase.feature",
+    "tags": []
+  }
+]
